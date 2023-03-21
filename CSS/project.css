@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Urbanist");
+@import url("https://fonts.googleapis.com/css?family=Kosugi");
+@import url("https://fonts.googleapis.com/css2?family=Asul:wght@700&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+body {
+    background-color: #efeeee;
+    display: flex;
+    flex-direction: column;
+}
+html, body {
+    height: 100%;
+  }
+
+.topnav {
+    /* transform: translateY(10px),; */
+    transform: translateX(-5px);
+    background-color: #323333;
+    overflow: hidden;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+  }
+  
+.topnav ul {
+    list-style: none;
+    padding-right: 10px;
+    margin: 0;
+    text-align: right;
+  }
+  
+  .topnav li {
+    display: inline-block;
+  }
+  
+  .topnav li a:hover {
+    color: #ccf3d3;
+    transition: 0.2s;
+  }
+  
+  .topnav a {
+    display: inline-block;
+    color: #efefef;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Lexend";
+    font-weight: 100;
+  }
+  
+  .topnav img {
+    float: left;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    transition: 0.2s;
+  }
+
+  .ass-heading {
+    color: black;
+  }
+
+ 
+    .heading {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -80%);
+       
+        text-align: center;
+        color: #ccf3d3;
+        font-family: "Lexend";
+        font-weight: 600;
+        z-index: 1;
+        line-height: 90px;
+    }
+
