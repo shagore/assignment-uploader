@@ -4,7 +4,9 @@
 
 html {
   background-color: black;
+  cursor: none;
 }
+
 
 .circle {
   height: 24px;
@@ -125,7 +127,7 @@ html {
 }
 .topnav {
   /* transform: translateY(10px),; */
-  transform: translateX(-5px);
+  transform: translate(-5px, 5px);
   background-color: #323333;
   overflow: hidden;
   border-radius: 10px;
