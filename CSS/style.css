@@ -19,6 +19,12 @@ html {
   z-index: 1000;
   pointer-events: none;
 }
+.darrow {
+  position: absolute;
+  z-index: 2;
+  top: 90%;
+  left: 95%;
+}
 
 .section {
   flex-direction: column;
