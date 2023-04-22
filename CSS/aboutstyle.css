@@ -8,16 +8,50 @@ html {
 
 .pfp {
     display: flex;
-    position: absolute;
     align-items: center;
     justify-content: center;
-    top: 50%;
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    border: 1px solid whitesmoke;
-    padding: 5px;
-}  
+    transform: translate(-50%, -50%); */
   
+}  
+
+.pfp img{
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.description {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "Lexend";
+    
+}
+
+ .aboutme h3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "Lexend";
+    font-weight: 200;
+    color: #ccf3d3;
+ }
+
+
+.description span {
+    font-weight:600;
+    color: #ccf3d3;
+}
+.description h3{
+    font-weight: 100;
+    font-size: 30px;
+    color: white
+    
+}
+
+
 body {
     background-color: #232322;
     display: flex;
