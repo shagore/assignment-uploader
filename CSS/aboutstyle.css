@@ -43,6 +43,7 @@ html {
 .description span {
     font-weight:600;
     color: #ccf3d3;
+    font-size: 48px;
 }
 .description h3{
     font-weight: 100;
