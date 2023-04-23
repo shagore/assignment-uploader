@@ -10,13 +10,26 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* top: 50%;
+    position:absolute;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); */
+    transform: translate(-50%, -45%);
   
 }  
+.mural img {
+    height: 100%;
+    width: 100vw;
+}
+.mural {
+    transform: translateY(-80px);
+    box-shadow: inset 20px #232322;
+    position: relative;
+    height: 85%;
+    width: 100%;
+}
 
 .pfp img{
+    display: flex;
     height: 400px;
     width: 350px;
     border-radius: 10px;
@@ -31,6 +44,7 @@ html {
 }
 
  .aboutme h3{
+    transform: translateY(20px);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -47,7 +61,7 @@ html {
 }
 .description h3{
     font-weight: 100;
-    font-size: 30px;
+    font-size: 24px;
     color: white
     
 }
