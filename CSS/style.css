@@ -7,6 +7,9 @@ html {
   cursor: none;
 }
 
+.ard img {
+  max-height: 173.25px;
+}
 
 .circle {
   height: 24px;
@@ -239,16 +242,25 @@ html {
 
 .projBox {
   width: 330px;
-  padding: 15px;
+  padding: 5px;
   border: 1px solid whitesmoke;
+  border-radius:10px ;
   margin: 20px;
+  overflow: hidden;
 }
+
 
 .projBox img {
   width: 100%;
   height: 100%;
   overflow: hidden;
   border-radius: 5px;
+}
+
+.projBox img:hover{
+  transform:scale(1.2);
+  z-index: 2;
+  transition: 0.4s ;
 }
 
 .projContainer {
