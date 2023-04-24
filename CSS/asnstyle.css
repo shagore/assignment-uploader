@@ -82,6 +82,11 @@ html, body {
     border: white 2px;
 }
 
+.ass-heading span {
+    font-weight: 200;
+    color: white;
+}
+
 .ass-heading {
   color:#ccf3d3;
   font-size: 20px;
