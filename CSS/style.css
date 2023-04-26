@@ -7,6 +7,17 @@ html {
   cursor: none;
 }
 
+.assh a{
+  text-decoration: none;
+}
+.assh {
+  text-align: center;
+  font-family: "Lexend";
+  color: white;
+  font-weight: 200;
+
+}
+
 .ard img {
   max-height: 173.25px;
 }
